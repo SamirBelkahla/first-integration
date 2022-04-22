@@ -1,0 +1,196 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ /* Ou la taille initiale que vous souhaitez utiliser */
+}
+
+body {
+    background-color: #6c655d;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.page-main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.nav {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    background-color: #662f32;
+    color: white;
+}
+
+.titre-entier {
+    width: 100%;
+}
+
+#img_big {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titre-myhomespace {
+    width: 100%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    margin: 40px 0px;
+}
+
+.titre-home {
+    font-size: 70px;
+    color: #662f32;
+    font-weight: bold;
+}
+
+.lot-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.partie1 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.partie2 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.partie3 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+.sous-titre1 {
+    background-color: #662f32;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.sous-titre2 {
+    background-color: #662f32;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.sous-titre3 {
+    background-color: #662f32;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+.bouton-plus {
+    background-color: #645955;
+    display: flex;
+    justify-content: end;
+}
+
+.text-sous-titre {
+    background-color: #645955;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.paragraphe-fin {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.para-tesimonials {
+    color: #654f47;
+    font-weight: bold;
+    width: 32%;
+}
+
+.der-titre {
+    margin: 15px 0px
+}
+.para-premium {
+    color: #654f47;
+    font-weight: bold;
+    width: 32%;
+}
+
+.para-aboutus {
+    color: #654f47;
+    font-weight: bold;
+    width: 32%;
+}
+
+.tesi-para {
+    margin: 20px 0px
+}
+
+.para-diff {
+    color: #a02127;
+}
+
+input {
+    background-color: #6c655d;
+    color: white;
+    padding: 10px
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design {
+    color: #645955;
+    margin: 30px 5px;
+    padding-top: 10px;
+    display: block;
+    width: 40%;
+}
+
+.logo-reseaux {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+}
+
+#twit, #fb, #gplus {
+    max-width: 30%;
+    max-height: 30%;
+    margin-right: 5px;
+}
